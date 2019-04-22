@@ -90,7 +90,7 @@ public class HelloWorld {
 	    System.out.println("Sunday");
 	    break;
 	default:
-	    System.out.println("Default for no value");
+	    System.out.println("Oops! 404 Not Found");
 	}
 	int i = 0;
 	while (i < 8) {
