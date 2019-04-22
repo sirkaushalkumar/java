@@ -164,8 +164,7 @@ public class HelloWorld {
 	checkAge(20);
 	System.out.println("Take a break");
 	myMethod();
-	System.out.println(
-		"Take a break. We will meet next time.");
+	System.out.println("Can we check it worked?");
     }
 
 }
