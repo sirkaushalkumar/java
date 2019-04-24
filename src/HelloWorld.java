@@ -3,10 +3,12 @@
  */
 
 /**
- * @author kkumar6
+ * @author kumar
  *
  */
 public class HelloWorld {
+
+    int classvalue = 16;
 
     /**
      * @param args
@@ -164,7 +166,10 @@ public class HelloWorld {
 	checkAge(20);
 	System.out.println("Take a break");
 	myMethod();
+	HelloWorld newObj = new HelloWorld();
+	System.out.println(newObj.classvalue);
 	System.out.println("Can we check it worked?");
+	System.out.println("Lets's Take a break");
     }
 
 }
